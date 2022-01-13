@@ -11,6 +11,9 @@
               {:query-params {:auth_token token
                               :url url
                               :description title
+                              :tags ""
+                              :shared "no"
+                              :toread "yes"
                               :format "json"}
                :as :json
                :throw-exceptions false}))
